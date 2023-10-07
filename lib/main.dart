@@ -1,12 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:netflix_ui/routes.dart';
+import 'package:netflix_ui/screens/splash/splash_screen.dart';
+import 'package:netflix_ui/theme.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(Netflix());
 }
 
-class MyApp extends StatelessWidget {
+class Netflix extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: theme(),
+      initialRoute: SplashScreen.routeName,
+      routes: route,
+    );
   }
 }
