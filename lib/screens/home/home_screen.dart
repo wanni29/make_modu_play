@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:netflix_ui/constants.dart';
 import 'package:netflix_ui/screens/components/label_icon.dart';
 import 'package:netflix_ui/screens/components/play_button.dart';
 import 'package:netflix_ui/screens/components/small_sub_text.dart';
